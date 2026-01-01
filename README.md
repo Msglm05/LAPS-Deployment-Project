@@ -8,7 +8,7 @@ This project demonstrates the deployment of Windows Local Administrator Password
 - Windows LAPS
 - Group Policy Management
 - PowerShell
-## Architecture Summary 
+## Architecture Summary 🏢
 This project uses a single Active Directory Domain with one Domain Controller and a domain-joined Windows client. Group Policy is used to configure LAPS, and PowerShell is used to assign permissions to an authorised party to view the passwords.
 ## Security Objectives 🔒
 - Prevent reuse of local administrator passwords
