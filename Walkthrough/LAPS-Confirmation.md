@@ -12,4 +12,5 @@
 - The commands seen below were used
 <img width="550" height="107" alt="image" src="https://github.com/user-attachments/assets/27595f5d-2bb2-4871-a142-03a0e866cca0" />
 
+[Watch login demonstration here](https://github.com/Msglm05/LAPS-Deployment-Project/releases/download/LAPS-Demo-Video/LAPS.DEMO.mp4)
 
