@@ -24,7 +24,22 @@
 <img width="750" height="135" alt="image" src="https://github.com/user-attachments/assets/abd52d15-f985-472b-89d0-08e624d3caa7" />
 
 ## Creating a Group Policy to install the LAPS installer on the target machoine 
-- 
+- A GPO was created and configured by navigating Computer Configuration > Software Settings > Software installation
+<img width="800" height="148" alt="image" src="https://github.com/user-attachments/assets/a125b2d1-9401-4a35-a2c2-41dad91a102d" />
+
+- LAPS installation file was added
+
+## Configuring LAPS Policies 
+- Navigated to LAPS through Computer Configuation > Policies > Administrative Templates > LAPS
+- Enabled 'Enable local admin password management'
+- Enabled 'Password Settings'
+- Enabled 'Do not allow password expiration time longer than required'
+<img width="750" height="148" alt="image" src="https://github.com/user-attachments/assets/390e3579-e5aa-4312-9971-a52888f696d3" />
+
+- GPO was linked to the OU the target machine is in
+
+
+
 
 
 
