@@ -9,17 +9,17 @@
 - Restarted the DC after installtion to ensure services load cleanly such as Group Policy extensions and PowerShell modules
 
 ## PowerShell Commands 
-- Importing the module, this makes the modules commands available in the current PowerShell session 
+#### Importing the module, this makes the module's commands available in the current PowerShell session 
 <img width="470" height="56" alt="image" src="https://github.com/user-attachments/assets/083de10c-51e2-4fe7-8fe3-1aea7d64bb5f" />
 
-- Updating the schema
+## Updating the schema
 <img width="750" height="184" alt="image" src="https://github.com/user-attachments/assets/44b61efb-da0a-4dc9-8d2f-cbebe8962d63" />
 
-- Setting the permissions for the computer that is going to use LAPS the ability to update the schema records
+### Setting the permissions for the computer that is going to use LAPS the ability to update the schema records
 - The Orgainisational Unit 'Workstations' is the target in which the test client is in
 <img width="750" height="138" alt="image" src="https://github.com/user-attachments/assets/0bc9c2fa-0c58-4724-8d6b-d92e467ebeb6" />
 
-- For the next command, a security group called 'LAPSAdmins' was created with Domain Admins added
+### For the next command, a security group called 'LAPSAdmins' was created with Domain Admins added
 - This commands sets the permissions to view the updated Administrator passwords
 <img width="750" height="135" alt="image" src="https://github.com/user-attachments/assets/abd52d15-f985-472b-89d0-08e624d3caa7" />
 
