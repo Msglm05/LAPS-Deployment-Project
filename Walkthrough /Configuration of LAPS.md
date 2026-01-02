@@ -1,12 +1,4 @@
-# Installation of LAPS 
-- Installed LAPS from Micrsofts page with my host OS
-- Placed the installation into a shared folder that is shared between the host OS and virtual machine
-<img width="700" height="163" alt="image" src="https://github.com/user-attachments/assets/a82454c3-4b85-4f0b-9da7-d54c65c9ddce" />
 
-- Installed entire features under 'Management Tools' during the wizard
-<img width="370" height="205" alt="image" src="https://github.com/user-attachments/assets/4fe57249-f5f0-4613-a447-85c28b7c5194" />
-
-- Restarted the DC after installtion to ensure services load cleanly such as Group Policy extensions and PowerShell modules
 
 ## PowerShell Commands 
 Importing the module, this makes the module's commands available in the current PowerShell session 
