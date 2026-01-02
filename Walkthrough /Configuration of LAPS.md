@@ -1,50 +1,5 @@
+# Configuration of LAPS
+- To check whether the Laps module was installed, the command below was ran
+<img width="500" height="467" alt="image" src="https://github.com/user-attachments/assets/2ed7eefd-e753-4444-841f-50d171b18e60" />
 
-
-## PowerShell Commands 
-Importing the module, this makes the module's commands available in the current PowerShell session 
-
-<img width="470" height="56" alt="image" src="https://github.com/user-attachments/assets/083de10c-51e2-4fe7-8fe3-1aea7d64bb5f" />
-
----
-Updating the schema
-
-<img width="750" height="184" alt="image" src="https://github.com/user-attachments/assets/44b61efb-da0a-4dc9-8d2f-cbebe8962d63" />
-
----
-Setting permissions that allow the computer using LAPS to update its own attributes
-- The Orgainisational Unit 'Workstations' is the target in which the test client is in
-  
-
-<img width="750" height="138" alt="image" src="https://github.com/user-attachments/assets/0bc9c2fa-0c58-4724-8d6b-d92e467ebeb6" />
-
----
-For the next command, a security group called 'LAPSAdmins' was created with Domain Admins added to it 
-- This command sets the permissions to view the updated Administrator passwords
-
-
-<img width="750" height="135" alt="image" src="https://github.com/user-attachments/assets/abd52d15-f985-472b-89d0-08e624d3caa7" />
-
-## Creating a Group Policy to install the LAPS installer on the target machoine 
-- A GPO was created and configured by navigating Computer Configuration > Software Settings > Software installation
-<img width="800" height="148" alt="image" src="https://github.com/user-attachments/assets/a125b2d1-9401-4a35-a2c2-41dad91a102d" />
-
-- LAPS installation file was added
-
-## Configuring LAPS Policies 
-- Navigated to LAPS through Computer Configuation > Policies > Administrative Templates > LAPS
-- Enabled 'Enable local admin password management'
-- Enabled 'Password Settings'
-- Enabled 'Do not allow password expiration time longer than required'
-<img width="750" height="148" alt="image" src="https://github.com/user-attachments/assets/390e3579-e5aa-4312-9971-a52888f696d3" />
-
-- GPO was linked to the OU the target machine is in
-
-
-
-
-
-
-
-
-
-
+- If this command produces no output, updates may need to be carried on the Windows Server
