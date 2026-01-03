@@ -37,6 +37,7 @@
 
 
 - GPO was linked to the target OU in which the test client is in
+- These setings were enabled to mimic a coorporate environment
 
 
 
