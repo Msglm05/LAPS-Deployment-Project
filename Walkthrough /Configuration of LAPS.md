@@ -22,7 +22,7 @@
 
 ## Group Policy Enabled Settings:
 - A GPO called 'LAPS' was created and edited by navigating to Computer Configuration > Policies > Administrative Templates > System > LAPS
-- 'Configure password backup directory'. Selected the backup directory to Active Directory.
+- 'Configure password backup directory', selected the backup directory to Active Directory
 <img width="370" height="632" alt="image" src="https://github.com/user-attachments/assets/18dea797-b44f-4a28-b02e-0abb989c7b04" />
 
 - 'Password Settings'
@@ -30,7 +30,7 @@
 
 - 'do not allow password expiration time longer than required by policy'
 - Password encryption
-- 'Configure authroised password decryptors'. Set the authenticated group 'LAPSAdmins' in my case.
+- 'Configure authroised password decryptors', set the authenticated group 'LAPSAdmins' in my case
 <img width="370" height="626" alt="image" src="https://github.com/user-attachments/assets/cbe014b1-4d4a-4efd-a9ff-4573befa8245" />
 
 
