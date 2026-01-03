@@ -20,20 +20,22 @@
 - This is required to give permission for a security group to read the LAPS password in Active Directory
 <img width="700" height="113" alt="image" src="https://github.com/user-attachments/assets/9c7eacee-0cc9-45d7-a0e2-0a6d4a5b7bd0" />
 
-## Group Policy Object Configurations
+## Group Policy Enabled Settings:
 - A GPO called 'LAPS' was created and edited by navigating to Computer Configuration > Policies > Administrative Templates > System > LAPS
-- Enabled 'Configure password backup directory' and selected the backup directory to Active Directory.
+- 'Configure password backup directory'. Selected the backup directory to Active Directory.
 <img width="370" height="632" alt="image" src="https://github.com/user-attachments/assets/18dea797-b44f-4a28-b02e-0abb989c7b04" />
 
-- Enabled 'Password Settings'
+- 'Password Settings'
 <img width="370" height="625" alt="image" src="https://github.com/user-attachments/assets/65bd0d65-9a38-4840-b2c6-719cbaf322fd" />
 
-- Enabled 'do not allow password expiration time longer than required by policy'
-- Enabled password encryption
-- Enabled 'Configure authroised password decryptors' and set the authenticated group 'LAPSAdmins' in my case.
-<img width="370" height="627" alt="image" src="https://github.com/user-attachments/assets/80a9fa1c-ee64-4c21-acf0-ef7d8b3ad891" />
+- 'do not allow password expiration time longer than required by policy'
+- Password encryption
+- 'Configure authroised password decryptors'. Set the authenticated group 'LAPSAdmins' in my case.
+<img width="370" height="626" alt="image" src="https://github.com/user-attachments/assets/cbe014b1-4d4a-4efd-a9ff-4573befa8245" />
+
 
 - GPO was linked to the target OU in which the test client is in
+
 
 
 
